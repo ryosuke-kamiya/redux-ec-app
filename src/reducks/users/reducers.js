@@ -9,6 +9,6 @@ export const UsersReducer = (state = initialState.users, action) => {//第一引
                 ...action.payload//アクションで指定があったもののみ上書きする
             }
         default:
-            break;
+            return state
     }
 }

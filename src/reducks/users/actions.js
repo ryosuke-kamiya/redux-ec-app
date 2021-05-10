@@ -3,6 +3,7 @@ export const signInAction = (userState) =>{
     return{
         type: "SIGN_IN",
         payload: {
+            // icon: "iconです。がしかし、あえて更新しません",
             isSignedIn: true,
             uid: userState.uid,
             username: userState.username,
